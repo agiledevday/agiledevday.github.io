@@ -185,7 +185,7 @@
                 </p>
 
                 <p class="lead">
-                    <a href="https://docs.google.com/forms/d/1FLSA7_r2g4hzoDay0rfV1fNs5hdDgmUvUT1xl96AxpM/viewform?usp=send_form">Zapraszamy do rejestracji poprzez formularz.</a>
+                    <a id="register_link" href="https://docs.google.com/forms/d/1FLSA7_r2g4hzoDay0rfV1fNs5hdDgmUvUT1xl96AxpM/viewform?usp=send_form">Zapraszamy do rejestracji poprzez formularz.</a>
                 </p>
 
                 <p class="lead">
@@ -234,6 +234,10 @@
             $('html,body').scrollTo(this.hash, this.hash);
         });
     });
+	
+	$('#register_link').on('click', function() {
+		ga('send', 'event', 'link', 'click', 'register-link');
+	});
 </script>
 
 </body>
