@@ -185,7 +185,7 @@
                 </p>
 
                 <p class="lead">
-                    <a href="https://docs.google.com/forms/d/1FLSA7_r2g4hzoDay0rfV1fNs5hdDgmUvUT1xl96AxpM/viewform?usp=send_form" onclick="trackOutboundLink('https://docs.google.com/forms/d/1FLSA7_r2g4hzoDay0rfV1fNs5hdDgmUvUT1xl96AxpM/viewform?usp=send_form'); return false;">Zapraszamy do rejestracji poprzez formularz.</a>
+                    <a href="https://docs.google.com/forms/d/1FLSA7_r2g4hzoDay0rfV1fNs5hdDgmUvUT1xl96AxpM/viewform?usp=send_form">Zapraszamy do rejestracji poprzez formularz.</a>
                 </p>
 
                 <p class="lead">
@@ -234,14 +234,6 @@
             $('html,body').scrollTo(this.hash, this.hash);
         });
     });
-	
-	var trackOutboundLink = function(url) {
-		ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
-			function () {
-				document.location = url;
-			}
-		});
-	}
 </script>
 
 </body>
