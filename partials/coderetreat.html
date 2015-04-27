@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Agile Development Day</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300&subset=latin-ext' rel='stylesheet' type='text/css'>
-
-    <!-- Add custom CSS here -->
-    <link href="css/landing-page.css" rel="stylesheet">
-
-    <!-- Google Tag Manager -->
-    <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KQHJL5"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
-        var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KQHJL5');</script>
-    <!-- End Google Tag Manager -->
-</head>
-
-<body>
 
 <div class="banner2013">
 
@@ -47,9 +7,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h1 class="big">Agile Development Day</h1>
-
                 <h2>Global Day of Coderetreat Warszawa</h2>
-                <h3>15 listopada 2014</h3>
             </div>
             <div class="col-lg-4">
 
@@ -104,15 +62,16 @@
                     dostarczanie oprogramowania.
                 </p>
 
+
+            </div>
+
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                 <iframe src="//player.vimeo.com/video/18955165" width="560" height="315" frameborder="0" webkitallowfullscreen
                         mozallowfullscreen allowfullscreen></iframe>
                 <p><a href="http://vimeo.com/18955165">Cleveland Code Retreat Introduction</a> from <a href="http://vimeo.com/coreyhaines">Corey
                     Haines</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-            </div>
-
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/agiledevday" data-widget-id="514390353688813568">Tweety @agiledevday</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <!--<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/agiledevday" data-widget-id="514390353688813568">Tweety @agiledevday</a>-->
+                <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
             </div>
         </div>
 
@@ -122,7 +81,7 @@
 
                 <p class="lead">
                     Zobacz poprzednią edycję:
-                    <a href="http://www.agiledevelopmentday.pl/2013.html" class="btn btn-default btn-lg" target="_blank">2013</a>
+                    <a ui-sref="2013" class="btn btn-default btn-lg" target="_blank">2013</a>
                 </p>
             </div>
 
@@ -232,45 +191,10 @@
     <!-- /.container -->
 
 </div>
-<!-- /.content-section-a -->
 
 
 
 
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="list-inline">
-                    <li>
-                        <a href="http://www.pragmatists.pl"><img class="img-responsive" src="img/pragmatists.png" alt=""></a>
-                    </li>
-                    <li class="footer-menu-divider"></li>
-                    <li>
-                        <a href="http://www.sages.com.pl"><img class="img-responsive" href="#about" src="img/sgs_logo.png" alt=""></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
 
-<!-- JavaScript -->
-<script src="js/jquery-1.10.2.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/jquery.scrollTo.js"></script>
 
-<script>
-
-    $(function () {
-        $(".nav a").click(function (e) {
-            e.preventDefault();
-            $('html,body').scrollTo(this.hash, this.hash);
-        });
-    });
-</script>
-
-</body>
-
-</html>
