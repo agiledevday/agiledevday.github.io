@@ -3,7 +3,7 @@ angular.module('add', ['ui.router'])
         $scope.name = 'World';
     })
     .config(function ($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise("/2014coderetreat");
+        $urlRouterProvider.otherwise("/home");
         $stateProvider
             .state('home', {
                 url: "/home",
