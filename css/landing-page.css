@@ -247,3 +247,7 @@ height: 100%;
     border-color: #002129;
     color: #FFFFFF;
 }
+
+footer .list-inline > li {
+     padding-right: 0px;
+}
