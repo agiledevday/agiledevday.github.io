@@ -33,5 +33,9 @@ angular.module('add', ['ui.router'])
                 url: "/2014coderetreat",
                 templateUrl: "partials/2014coderetreat.html"
             })
+ 	   .state('2015', {
+                url: "/2015",
+                templateUrl: "partials/2015.html"
+            })
         ;
     });
