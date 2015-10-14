@@ -257,3 +257,7 @@ height: 100%;
 footer .list-inline > li {
      padding-right: 0px;
 }
+
+div#eventHeader{
+	display: none;
+}
