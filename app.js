@@ -10,6 +10,10 @@ angular.module('add', ['ui.router'])
                 views:{
                     content:{
                         templateUrl: "partials/home.html"
+
+                    },
+                    partners:{
+                        templateUrl: 'partials/2015-coderetreat-partners.html'
                     }
                 }
             })
